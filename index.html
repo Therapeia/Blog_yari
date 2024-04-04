@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="IMG/logo.png" type="image/png">
+    <link rel="stylesheet" href="../Blog_BUENO/css/style.css">
+    <title>New Waves</title>
+</head>
+
+<body>
+    <main>
+        <header class="header">
+            <div class="logo">
+                <img src="IMG/logo.png" alt="">
+            </div>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="#"></a></li>
+                    <li><a href="#"></a></li>
+                </ul>
+            </nav>
+            <button id="nueva-noticia">Nueva Noticia</button>
+        </header>
+
+        <section class="primary" id="noticias-section">
+            <!-- Aquí se agregarán los posts -->
+        </section>
+
+        <div class="mainContainer" id="post-form">
+            <form>
+                <h4 class="third-text">NUEVA NOTICIA</h4>
+                <div class="input-box">
+                    <input type="text" id="titulo" name="titulo" class="input" required>
+                    <label for="">Nombre de la noticia</label>
+                </div>
+                <div class="input-box">
+                    <textarea name="contenido" id="contenido" cols="30" rows="10" class="input" required></textarea>
+                    <label for="">Contenido de la noticia</label>
+                </div>
+                <label for="" class="a-d">Elija una imagen</label><br>
+                <input type="file" id="inputImagen" class="contenedor-btn-file" accept="image/*"><br>
+                <label for="" class="a-d">Elija un audio</label><br>
+                <input type="file" id="inputAudio" class="contenedor-btn-file" accept="audio/*"><br>
+                <input type="submit" id="crear" value="Crear">
+            </form>
+        </div>
+    </main>
+
+    <script src="../Blog_BUENO/js/script.js"></script>
+    <script src="https://kit.fontawesome.com/6aa50327c5.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+</body>
+
+</html>
